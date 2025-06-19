@@ -1,0 +1,272 @@
+Microsoft Windows [Version 10.0.26100.4349]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Vasu>ssh ongc@10.205.48.245
+The authenticity of host '10.205.48.245 (10.205.48.245)' can't be established.
+ED25519 key fingerprint is SHA256:poy7QAjrDf05YWPlN4VvTIJBhTfN1XHDYuRKvPdejOA.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '10.205.48.245' (ED25519) to the list of known hosts.
+ongc@10.205.48.245's password:
+Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64
+
+The programs included with the Kali GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Kali GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue Jun 10 15:16:38 2025 from 10.208.208.115
+┌──(ongc㉿kali)-[~]
+└─$ sudo apt update
+[sudo] password for ongc:
+Get:1 http://mirror.kku.ac.th/kali kali-rolling InRelease [41.5 kB]
+Err:1 http://mirror.kku.ac.th/kali kali-rolling InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ED65462EC8D5E4C5
+Warning: GPG error: http://mirror.kku.ac.th/kali kali-rolling InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ED65462EC8D5E4C5
+Error: The repository 'http://http.kali.org/kali kali-rolling InRelease' is not signed.
+Notice: Updating from such a repository can't be done securely, and is therefore disabled by default.
+Notice: See apt-secure(8) manpage for repository creation and user configuration details.
+Notice: Repository 'Kali Linux' changed its 'firmware component' value from 'non-free' to 'non-free-firmware'
+Notice: More information about this can be found online at: https://www.kali.org/blog/non-free-firmware-transition/
+
+┌──(ongc㉿kali)-[~]
+└─$ streamlit run testtestnew.py \
+  --server.port 8501 \
+  --server.enableCORS false \
+  --server.enableXsrfProtection false \
+  --server.headless true
+
+Could not find command-not-found database. Run 'sudo apt update' to populate it.
+streamlit: command not found
+
+┌──(ongc㉿kali)-[~]
+└─$ streamlit run testnew.py \
+  --server.port 8501 \
+  --server.enableCORS false \
+  --server.enableXsrfProtection false \
+  --server.headless true
+
+Could not find command-not-found database. Run 'sudo apt update' to populate it.
+streamlit: command not found
+
+┌──(ongc㉿kali)-[~]
+└─$ stre
+
+┌──(ongc㉿kali)-[~]
+└─$ stresudo apt update
+0% [Working]
+Get:1 http://mirror.sg.gs/kali kali-rolling InRelease [41.5 kB]
+Err:1 http://mirror.sg.gs/kali kali-rolling InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ED65462EC8D5E4C5
+Warning: GPG error: http://mirror.sg.gs/kali kali-rolling InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ED65462EC8D5E4C5
+Error: The repository 'http://http.kali.org/kali kali-rolling InRelease' is not signed.
+Notice: Updating from such a repository can't be done securely, and is therefore disabled by default.
+Notice: See apt-secure(8) manpage for repository creation and user configuration details.
+Notice: Repository 'Kali Linux' changed its 'firmware component' value from 'non-free' to 'non-free-firmware'
+Notice: More information about this can be found online at: https://www.kali.org/blog/non-free-firmware-transition/
+
+┌──(ongc㉿kali)-[~]
+└─$ streamlit run testnew.py \
+  --server.port 8501 \
+  --server.enableCORS false \
+  --server.enableXsrfProtection false \
+  --server.headless true
+
+Could not find command-not-found database. Run 'sudo apt update' to populate it.
+streamlit: command not found
+
+┌──(ongc㉿kali)-[~]
+└─$
+
+┌──(ongc㉿kali)-[~]
+└─$ pip install streamlit
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: streamlit in ./.local/lib/python3.11/site-packages (1.45.1)
+Requirement already satisfied: altair<6,>=4.0 in ./.local/lib/python3.11/site-packages (from streamlit) (5.5.0)
+Requirement already satisfied: blinker<2,>=1.5.0 in /usr/lib/python3/dist-packages (from streamlit) (1.8.2)
+Requirement already satisfied: cachetools<6,>=4.0 in ./.local/lib/python3.11/site-packages (from streamlit) (5.5.2)
+Requirement already satisfied: click<9,>=7.0 in /usr/lib/python3/dist-packages (from streamlit) (8.1.7)
+Requirement already satisfied: numpy<3,>=1.23 in /usr/lib/python3/dist-packages (from streamlit) (1.26.4)
+Requirement already satisfied: packaging<25,>=20 in /usr/lib/python3/dist-packages (from streamlit) (24.1)
+Requirement already satisfied: pandas<3,>=1.4.0 in /usr/lib/python3/dist-packages (from streamlit) (2.1.4+dfsg)
+Requirement already satisfied: pillow<12,>=7.1.0 in /usr/lib/python3/dist-packages (from streamlit) (10.3.0)
+Requirement already satisfied: protobuf<7,>=3.20 in /usr/lib/python3/dist-packages (from streamlit) (4.21.12)
+Requirement already satisfied: pyarrow>=7.0 in ./.local/lib/python3.11/site-packages (from streamlit) (20.0.0)
+Requirement already satisfied: requests<3,>=2.27 in /usr/lib/python3/dist-packages (from streamlit) (2.31.0)
+Requirement already satisfied: tenacity<10,>=8.1.0 in ./.local/lib/python3.11/site-packages (from streamlit) (9.1.2)
+Requirement already satisfied: toml<2,>=0.10.1 in ./.local/lib/python3.11/site-packages (from streamlit) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.4.0 in /usr/lib/python3/dist-packages (from streamlit) (4.12.2)
+Requirement already satisfied: watchdog<7,>=2.1.5 in ./.local/lib/python3.11/site-packages (from streamlit) (6.0.0)
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in /usr/lib/python3/dist-packages (from streamlit) (3.1.37)
+Requirement already satisfied: pydeck<1,>=0.8.0b4 in ./.local/lib/python3.11/site-packages (from streamlit) (0.9.1)
+Requirement already satisfied: tornado<7,>=6.0.3 in /usr/lib/python3/dist-packages (from streamlit) (6.4.1)
+Requirement already satisfied: jinja2 in /usr/lib/python3/dist-packages (from altair<6,>=4.0->streamlit) (3.1.3)
+Requirement already satisfied: jsonschema>=3.0 in /usr/lib/python3/dist-packages (from altair<6,>=4.0->streamlit) (4.19.2)
+Requirement already satisfied: narwhals>=1.14.2 in ./.local/lib/python3.11/site-packages (from altair<6,>=4.0->streamlit) (1.41.1)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /usr/lib/python3/dist-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit) (4.0.11)
+Requirement already satisfied: attrs>=22.2.0 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (23.2.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (2023.12.1)
+Requirement already satisfied: referencing>=0.28.4 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.31.0)
+Requirement already satisfied: rpds-py>=0.7.1 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.12.0)
+
+┌──(ongc㉿kali)-[~]
+└─$ stresudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-ABkNnS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-ABkNnS] [-g group] [-h host] [-p prompt] [-U user]
+            [-u user] [command [arg ...]]
+usage: sudo [-ABbEHkNnPS] [-r role] [-t type] [-C num] [-D directory]
+            [-g group] [-h host] [-p prompt] [-R directory] [-T timeout]
+            [-u user] [VAR=value] [-i | -s] [command [arg ...]]
+usage: sudo -e [-ABkNnS] [-r role] [-t type] [-C num] [-D directory]
+            [-g group] [-h host] [-p prompt] [-R directory] [-T timeout]
+            [-u user] file ...
+
+┌──(ongc㉿kali)-[~]
+└─$ sudo apt install -y python3-tk libatlas-base-dev
+Error: Unable to locate package libatlas-base-dev
+
+┌──(ongc㉿kali)-[~]
+sts reportlab
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: streamlit in ./.local/lib/python3.11/site-packages (1.45.1)
+Requirement already satisfied: networkx in /usr/lib/python3/dist-packages (3.2.1)
+Requirement already satisfied: matplotlib in /usr/lib/python3/dist-packages (3.6.3)
+Requirement already satisfied: paramiko in /usr/lib/python3/dist-packages (3.4.0)
+Requirement already satisfied: requests in /usr/lib/python3/dist-packages (2.31.0)
+Requirement already satisfied: reportlab in ./.local/lib/python3.11/site-packages (4.4.1)
+Requirement already satisfied: altair<6,>=4.0 in ./.local/lib/python3.11/site-packages (from streamlit) (5.5.0)
+Requirement already satisfied: blinker<2,>=1.5.0 in /usr/lib/python3/dist-packages (from streamlit) (1.8.2)
+Requirement already satisfied: cachetools<6,>=4.0 in ./.local/lib/python3.11/site-packages (from streamlit) (5.5.2)
+Requirement already satisfied: click<9,>=7.0 in /usr/lib/python3/dist-packages (from streamlit) (8.1.7)
+Requirement already satisfied: numpy<3,>=1.23 in /usr/lib/python3/dist-packages (from streamlit) (1.26.4)
+Requirement already satisfied: packaging<25,>=20 in /usr/lib/python3/dist-packages (from streamlit) (24.1)
+Requirement already satisfied: pandas<3,>=1.4.0 in /usr/lib/python3/dist-packages (from streamlit) (2.1.4+dfsg)
+Requirement already satisfied: pillow<12,>=7.1.0 in /usr/lib/python3/dist-packages (from streamlit) (10.3.0)
+Requirement already satisfied: protobuf<7,>=3.20 in /usr/lib/python3/dist-packages (from streamlit) (4.21.12)
+Requirement already satisfied: pyarrow>=7.0 in ./.local/lib/python3.11/site-packages (from streamlit) (20.0.0)
+Requirement already satisfied: tenacity<10,>=8.1.0 in ./.local/lib/python3.11/site-packages (from streamlit) (9.1.2)
+Requirement already satisfied: toml<2,>=0.10.1 in ./.local/lib/python3.11/site-packages (from streamlit) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.4.0 in /usr/lib/python3/dist-packages (from streamlit) (4.12.2)
+Requirement already satisfied: watchdog<7,>=2.1.5 in ./.local/lib/python3.11/site-packages (from streamlit) (6.0.0)
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in /usr/lib/python3/dist-packages (from streamlit) (3.1.37)
+Requirement already satisfied: pydeck<1,>=0.8.0b4 in ./.local/lib/python3.11/site-packages (from streamlit) (0.9.1)
+Requirement already satisfied: tornado<7,>=6.0.3 in /usr/lib/python3/dist-packages (from streamlit) (6.4.1)
+Requirement already satisfied: chardet in /usr/lib/python3/dist-packages (from reportlab) (5.2.0)
+Requirement already satisfied: jinja2 in /usr/lib/python3/dist-packages (from altair<6,>=4.0->streamlit) (3.1.3)
+Requirement already satisfied: jsonschema>=3.0 in /usr/lib/python3/dist-packages (from altair<6,>=4.0->streamlit) (4.19.2)
+Requirement already satisfied: narwhals>=1.14.2 in ./.local/lib/python3.11/site-packages (from altair<6,>=4.0->streamlit) (1.41.1)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /usr/lib/python3/dist-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit) (4.0.11)
+Requirement already satisfied: attrs>=22.2.0 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (23.2.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (2023.12.1)
+Requirement already satisfied: referencing>=0.28.4 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.31.0)
+Requirement already satisfied: rpds-py>=0.7.1 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.12.0)
+
+┌──(ongc㉿kali)-[~]
+└─$ pip install streamlit networkx matplotlib paramiko requests reportlab
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: streamlit in ./.local/lib/python3.11/site-packages (1.45.1)
+Requirement already satisfied: networkx in /usr/lib/python3/dist-packages (3.2.1)
+Requirement already satisfied: matplotlib in /usr/lib/python3/dist-packages (3.6.3)
+Requirement already satisfied: paramiko in /usr/lib/python3/dist-packages (3.4.0)
+Requirement already satisfied: requests in /usr/lib/python3/dist-packages (2.31.0)
+Requirement already satisfied: reportlab in ./.local/lib/python3.11/site-packages (4.4.1)
+Requirement already satisfied: altair<6,>=4.0 in ./.local/lib/python3.11/site-packages (from streamlit) (5.5.0)
+Requirement already satisfied: blinker<2,>=1.5.0 in /usr/lib/python3/dist-packages (from streamlit) (1.8.2)
+Requirement already satisfied: cachetools<6,>=4.0 in ./.local/lib/python3.11/site-packages (from streamlit) (5.5.2)
+Requirement already satisfied: click<9,>=7.0 in /usr/lib/python3/dist-packages (from streamlit) (8.1.7)
+Requirement already satisfied: numpy<3,>=1.23 in /usr/lib/python3/dist-packages (from streamlit) (1.26.4)
+Requirement already satisfied: packaging<25,>=20 in /usr/lib/python3/dist-packages (from streamlit) (24.1)
+Requirement already satisfied: pandas<3,>=1.4.0 in /usr/lib/python3/dist-packages (from streamlit) (2.1.4+dfsg)
+Requirement already satisfied: pillow<12,>=7.1.0 in /usr/lib/python3/dist-packages (from streamlit) (10.3.0)
+Requirement already satisfied: protobuf<7,>=3.20 in /usr/lib/python3/dist-packages (from streamlit) (4.21.12)
+Requirement already satisfied: pyarrow>=7.0 in ./.local/lib/python3.11/site-packages (from streamlit) (20.0.0)
+Requirement already satisfied: tenacity<10,>=8.1.0 in ./.local/lib/python3.11/site-packages (from streamlit) (9.1.2)
+Requirement already satisfied: toml<2,>=0.10.1 in ./.local/lib/python3.11/site-packages (from streamlit) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.4.0 in /usr/lib/python3/dist-packages (from streamlit) (4.12.2)
+Requirement already satisfied: watchdog<7,>=2.1.5 in ./.local/lib/python3.11/site-packages (from streamlit) (6.0.0)
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in /usr/lib/python3/dist-packages (from streamlit) (3.1.37)
+Requirement already satisfied: pydeck<1,>=0.8.0b4 in ./.local/lib/python3.11/site-packages (from streamlit) (0.9.1)
+Requirement already satisfied: tornado<7,>=6.0.3 in /usr/lib/python3/dist-packages (from streamlit) (6.4.1)
+Requirement already satisfied: chardet in /usr/lib/python3/dist-packages (from reportlab) (5.2.0)
+Requirement already satisfied: jinja2 in /usr/lib/python3/dist-packages (from altair<6,>=4.0->streamlit) (3.1.3)
+Requirement already satisfied: jsonschema>=3.0 in /usr/lib/python3/dist-packages (from altair<6,>=4.0->streamlit) (4.19.2)
+Requirement already satisfied: narwhals>=1.14.2 in ./.local/lib/python3.11/site-packages (from altair<6,>=4.0->streamlit) (1.41.1)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /usr/lib/python3/dist-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit) (4.0.11)
+Requirement already satisfied: attrs>=22.2.0 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (23.2.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (2023.12.1)
+Requirement already satisfied: referencing>=0.28.4 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.31.0)
+Requirement already satisfied: rpds-py>=0.7.1 in /usr/lib/python3/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.12.0)
+
+┌──(ongc㉿kali)-[~]
+└─$ sudostreamlit run testnew.py \
+  --server.port 8501 \
+  --server.enableCORS false \
+  --server.enableXsrfProtection false \
+  --server.headless true
+
+Could not find command-not-found database. Run 'sudo apt update' to populate it.
+streamlit: command not found
+
+┌──(ongc㉿kali)-[~]
+└─$
+
+┌──(ongc㉿kali)-[~]
+└─$ strestreamlit run testnew.py \
+  --server.port 8501 \
+  --server.enableCORS false \
+  --server.enableXsrfProtection false \
+  --server.headless true
+
+Could not find command-not-found database. Run 'sudo apt update' to populate it.
+streamlit: command not found
+
+┌──(ongc㉿kali)-[~]
+└─$ strestreamlit run testnew.py \
+  --server.port 8501 \
+  --server.enableCORS false \
+  --server.enableXsrfProtection false \
+  --server.headless true
+
+Could not find command-not-found database. Run 'sudo apt update' to populate it.
+streamlit: command not found
+
+┌──(ongc㉿kali)-[~]
+└─$
+
+┌──(ongc㉿kali)-[~]
+└─$
+
+┌──(ongc㉿kali)-[~]
+└─$ ^[[200~~/.local/bin/streamlit run flasktest.py \
+>   --server.enableCORS false \
+>   --server.headless true \
+>   --server.address 0.0.0.0 \
+>   --server.port 8501
+zsh: bad pattern: ^[[200~~/.local/bin/streamlit
+
+┌──(ongc㉿kali)-[~]
+└─$ ~/.local/bin/streamlit run flasktest.py --server.port 8501 --server.enableCORS false --server.headless true
+2025-06-12 10:42:26.125
+Warning: the config option 'server.enableCORS=false' is not compatible with
+'server.enableXsrfProtection=true'.
+As a result, 'server.enableCORS' is being overridden to 'true'.
+
+More information:
+In order to protect against CSRF attacks, we send a cookie with each request.
+To do so, we must specify allowable origins, which places a restriction on
+cross-origin resource sharing.
+
+If cross origin resource sharing is required, please disable server.enableXsrfProtection.
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2025-06-12 10:42:26.495 Did not auto detect external IP.
+Please go to https://docs.streamlit.io/ for debugging hints.
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.205.48.245:8501

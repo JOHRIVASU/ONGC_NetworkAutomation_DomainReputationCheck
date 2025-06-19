@@ -1,0 +1,136 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2025.06.12 10:25:02 =~=~=~=~=~=~=~=~=~=~=~=
+show log messages | a   match "RT-FLOW" 
+Jun 12 10:52:32.787 2025  DLI-SM3 mgd[78265]: %INTERACT-6-UI_CMDLINE_READ_LINE: User 'dc_monitor', command 'show log messages | match RT-FLOW '
+
+{master}
+dc_monitor@DLI-SM3> dc_monitor@DLI-SM3> show log messages | match "RT-FLOW"                                                          
+Jun 12 08:00:00 DLI-SM3 newsyslog[70829]: logfile turned over due to size>1024K
+Jun 12 08:00:00.621 2025  DLI-SM3 sshd[70833]: %AUTH-6: Connection closed by 10.212.55.86 port 53184
+Jun 12 08:00:00.621 2025  DLI-SM3 sshd[70832]: %AUTH-6: Connection closed by 10.212.55.86 port 53184 [preauth]
+Jun 12 08:00:00.622 2025  DLI-SM3 inetd[20194]: %DAEMON-4: /usr/sbin/sshd[70832]: exited, status 255
+Jun 12 08:00:01.651 2025  DLI-SM3 sshd[70835]: %AUTH-6: Connection closed by 10.212.55.86 port 57404
+Jun 12 08:00:01.652 2025  DLI-SM3 sshd[70834]: %AUTH-6: Connection closed by 10.212.55.86 port 57404 [preauth]
+Jun 12 08:00:01.652 2025  DLI-SM3 inetd[20194]: %DAEMON-4: /usr/sbin/sshd[70834]: exited, status 255
+Jun 12 08:00:01.673 2025  DLI-SM3 sshd[70837]: %AUTH-6: Connection closed by 10.212.55.86 port 45772
+Jun 12 08:00:01.673 2025  DLI-SM3 sshd[70836]: %AUTH-6: Connection closed by 10.212.55.86 port 45772 [preauth]
+Jun 12 08:00:01.674 2025  DLI-SM3 inetd[20194]: %DAEMON-4: /usr/sbin/sshd[70836]: exited, status 255
+Jun 12 08:00:09.478 2025  DLI-SM3 mgd[70853]: %DAEMON-6-UI_COND_GROUPS_COMMIT: Cond-Groups: commit start
+Jun 12 08:00:09.478 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Obtaining lock for commit
+Jun 12 08:00:09.480 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: updating commit revision
+Jun 12 08:00:09.481 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: UI extensions feature is not configured
+Jun 12 08:00:09.481 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Started running translation script
+Jun 12 08:00:09.560 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: No delta input for translation
+Jun 12 08:00:09.560 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Finished running translation script
+Jun 12 08:00:09.560 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: start loading commit script changes
+Jun 12 08:00:09.560 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: no commit script changes
+Jun 12 08:00:09.560 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: no transient commit script changes
+Jun 12 08:00:09.560 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: finished loading commit script changes
+Jun 12 08:00:09.560 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: No translation output from the scripts
+Jun 12 08:00:09.560 2025  DLI-SM3 mgd[70853]: %DAEMON-6-UI_COMMIT_NO_MASTER_PASSWORD:  : No 'system master-password' set
+Jun 12 08:00:09.572 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: copying juniper.db to juniper.data+
+Jun 12 08:00:09.591 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: finished copying juniper.db to juniper.data+
+Jun 12 08:00:09.591 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: exporting juniper.conf
+Jun 12 08:00:09.632 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: expanding interface-ranges
+Jun 12 08:00:09.633 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: finished expanding interface-ranges
+Jun 12 08:00:09.633 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: expanding groups
+Jun 12 08:00:09.644 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: finished expanding groups
+Jun 12 08:00:09.644 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: setup foreign files
+Jun 12 08:00:09.661 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: propagating foreign files
+Jun 12 08:00:09.662 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/mustd'
+Jun 12 08:00:09.838 2025  DLI-SM3 mustd: %USER-6-UI_DELTA_CONSTRAINT_CHECK_NOT_RUNNING: delta constraint check process can not run because persist groups is not configured
+Jun 12 08:00:09.844 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/mustd', PID 70858, status 0x700
+Jun 12 08:00:09.844 2025  DLI-SM3 mgd[70853]: %DAEMON-5-UI_CHILD_EXITED: Child exited: PID 70858, status 7, command '/usr/sbin/mustd'
+Jun 12 08:00:09.845 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: cdg returns = 7(persist groups is not configured (needed for cdg))
+Jun 12 08:00:09.847 2025  DLI-SM3 mgd[70853]: %DAEMON-6-UI_CLASS_MODIFIED_USERS: Class 'Admin' modified, affects users: JSpace pimadmin
+Jun 12 08:00:09.848 2025  DLI-SM3 mgd[70853]: %DAEMON-6-UI_CLASS_MODIFIED_USERS: Class 'Read_Only_User' modified, affects users: RO
+Jun 12 08:00:09.932 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: complete foreign files
+Jun 12 08:00:09.951 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: dropping unchanged foreign files
+Jun 12 08:00:09.951 2025  DLI-SM3 mgd[70853]: %DAEMON-6-UI_COND_GROUPS:  conditional group 'paperless_bandwidth1' is getting effective
+Jun 12 08:00:09.951 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: start ffp propagate
+Jun 12 08:00:09.951 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/ffp'
+Jun 12 08:00:10.253 2025  DLI-SM3 rpd: %USER-7: proceeding. -C
+Jun 12 08:00:10.298 2025  DLI-SM3 chassisd[70864]: %DAEMON-7-PVIDB: Attribute 'platform.support_jam' not present in Db
+---(more)---                                        Jun 12 08:00:10.299 2025  DLI-SM3 chassisd[70864]: %DAEMON-6: jam_plugin_init: SFB2 Fabric Plugin Init
+---(more 0%)---                                        Jun 12 08:00:10.300 2025  DLI-SM3 chassisd[70864]: %DAEMON-6: jam_plugin_init: SFB2 Fasic Plugin Init
+---(more 0%)---                                        Jun 12 08:00:10.300 2025  DLI-SM3 chassisd[70864]: %DAEMON-6: JAM:PL: Registered attributes for c04
+---(more 0%)---                                        Jun 12 08:00:10.300 2025  DLI-SM3 chassisd[70864]: %DAEMON-6: JAM:PL: Registered attributes for c05
+---(more 0%)---                                        Jun 12 08:00:10.300 2025  DLI-SM3 chassisd[70864]: %DAEMON-6: JAM:PL: Registered attributes for c06
+---(more 0%)---                                        Jun 12 08:00:10.301 2025  DLI-SM3 chassisd[70864]: %DAEMON-6: JAM:PL: Registered attributes for c07
+---(more 0%)---                                        Jun 12 08:00:10.301 2025  DLI-SM3 chassisd[70864]: %DAEMON-6: JAM:PL: Completed plugin init for jam-mpc-2e-3e-ng for chassisd
+---(more 0%)---                                        Jun 12 08:00:10.301 2025  DLI-SM3 chassisd[70864]: %DAEMON-6: jam_core_fabric_attrib_set: In config_mode returning for 0xc04
+---(more 0%)---                                        Jun 12 08:00:10.301 2025  DLI-SM3 chassisd[70864]: %DAEMON-6: jam_core_fabric_attrib_set: In config_mode returning for 0xc05
+---(more 0%)---                                        Jun 12 08:00:10.301 2025  DLI-SM3 chassisd[70864]: %DAEMON-6: jam_core_fabric_attrib_set: In config_mode returning for 0xc06
+---(more 0%)---                                        Jun 12 08:00:10.301 2025  DLI-SM3 chassisd[70864]: %DAEMON-6: jam_core_fabric_attrib_set: In config_mode returning for 0xc07
+---(more 0%)---                                        Jun 12 08:00:10.302 2025  DLI-SM3 chassisd[70864]: %DAEMON-6:  jam_plugin_init: n_xf 384, n_xf2 384, n_tx 0 rx_fill_flag 0x0 rate_ratio[0] 1
+---(more 1%)---                                        Jun 12 08:00:10.219 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/ffp', PID 70861, status 0
+---(more 1%)---                                        Jun 12 08:00:10.219 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: finish ffp propagate
+---(more 1%)---                                        Jun 12 08:00:10.219 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: daemons checking new configuration
+---(more 1%)---                                        Jun 12 08:00:10.220 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Routing protocols process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.220 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/rpd'
+---(more 1%)---                                        Jun 12 08:00:10.221 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Chassis control process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.221 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/chassisd'
+---(more 1%)---                                        Jun 12 08:00:10.223 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: sending commit-check command to Firewall process(20391)
+---(more 1%)---                                        Jun 12 08:00:10.223 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: sending commit-check command to Interface control process(20384)
+---(more 1%)---                                        Jun 12 08:00:10.225 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Interface control process
+---(more 1%)---                                        Jun 12 08:00:10.316 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Simple Network Management Protocol process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.316 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/snmpd'
+---(more 1%)---                                        Jun 12 08:00:10.358 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Simple Network Management Protocol process
+---(more 1%)---                                        Jun 12 08:00:10.358 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/snmpd', PID 70867, status 0
+---(more 1%)---                                        Jun 12 08:00:10.358 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Management Information Base II process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.358 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/mib2d'
+---(more 1%)---                                        Jun 12 08:00:10.380 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Firewall process
+---(more 1%)---                                        Jun 12 08:00:10.380 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning SONET Automatic Protection Switching process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.380 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/apsd'
+---(more 1%)---                                        Jun 12 08:00:10.392 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Management Information Base II process
+---(more 1%)---                                        Jun 12 08:00:10.392 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/mib2d', PID 70869, status 0
+---(more 1%)---                                        Jun 12 08:00:10.392 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Packet Forwarding Engine statistics management process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.392 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/pfed'
+---(more 1%)---                                        Jun 12 08:00:10.401 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of SONET Automatic Protection Switching process
+---(more 1%)---                                        Jun 12 08:00:10.401 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/apsd', PID 70870, status 0
+---(more 1%)---                                        Jun 12 08:00:10.401 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Traffic sampling control process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.401 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/sampled'
+---(more 1%)---                                        Jun 12 08:00:10.423 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Traffic sampling control process
+---(more 1%)---                                        Jun 12 08:00:10.424 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/sampled', PID 70874, status 0
+---(more 1%)---                                        Jun 12 08:00:10.424 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Jflow process for embedded junos to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.424 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/jflowd'
+---(more 1%)---                                        Jun 12 08:00:10.428 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Packet Forwarding Engine statistics management process
+---(more 1%)---                                        Jun 12 08:00:10.429 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/pfed', PID 70871, status 0
+---(more 1%)---                                        Jun 12 08:00:10.429 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Remote operations process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.429 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/rmopd'
+---(more 1%)---                                        Jun 12 08:00:10.437 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Jflow process for embedded junos
+---(more 1%)---                                        Jun 12 08:00:10.437 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/jflowd', PID 70876, status 0
+---(more 1%)---                                        Jun 12 08:00:10.437 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Class-of-service process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.437 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/cosd'
+---(more 1%)---                                        Jun 12 08:00:10.462 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Remote operations process
+---(more 1%)---                                        Jun 12 08:00:10.463 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/rmopd', PID 70877, status 0
+---(more 1%)---                                        Jun 12 08:00:10.463 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning PIC services logging process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.463 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/fsad'
+---(more 1%)---                                        Jun 12 08:00:10.475 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of PIC services logging process
+---(more 1%)---                                        Jun 12 08:00:10.475 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/fsad', PID 70882, status 0
+---(more 1%)---                                        Jun 12 08:00:10.475 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Adaptive services process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.475 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/spd'
+---(more 1%)---                                        Jun 12 08:00:10.522 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Adaptive services process
+---(more 1%)---                                        Jun 12 08:00:10.522 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/spd', PID 70883, status 0
+---(more 1%)---                                        Jun 12 08:00:10.522 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Redundancy interface management process to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.522 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/rdd'
+---(more 1%)---                                        Jun 12 08:00:10.537 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Redundancy interface management process
+---(more 1%)---                                        Jun 12 08:00:10.537 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/rdd', PID 70885, status 0
+---(more 1%)---                                        Jun 12 08:00:10.537 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Dynamic flow capture service to check new configuration
+---(more 1%)---                                        Jun 12 08:00:10.537 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/dfcd'
+---(more 1%)---                                        Jun 12 08:00:10.558 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Dynamic flow capture service
+---(more 1%)---                                        Jun 12 08:00:10.559 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/dfcd', PID 70886, status 0
+---(more 2%)---                                        Jun 12 08:00:10.559 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Multiservice Daemon to check new configuration
+---(more 2%)---                                        Jun 12 08:00:10.559 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/mspd'
+---(more 2%)---                                        Jun 12 08:00:10.572 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Multiservice Daemon
+---(more 2%)---                                        Jun 12 08:00:10.572 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/mspd', PID 70887, status 0
+---(more 2%)---                                        Jun 12 08:00:10.572 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Spawning Enhanced Session Management process to check new configuration
+---(more 2%)---                                        Jun 12 08:00:10.572 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_START: Starting child '/usr/sbin/bbe-smgd'
+---(more 2%)---                                        Jun 12 08:00:10.618 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_COMMIT_PROGRESS: Commit operation in progress: Collecting status of Chassis control process
+---(more 2%)---                                        Jun 12 08:00:10.618 2025  DLI-SM3 mgd[70853]: %INTERACT-6-UI_CHILD_STATUS: Cleanup child '/usr/sbin/chassisd', PID 70864, status 0
+---(more 2%)---[abort]
+
+{master}
+dc_monitor@DLI-SM3> set system
+                        ^
+syntax error, expecting <command>.
+dc_monitor@DLI-SM3> set system   sys                                       

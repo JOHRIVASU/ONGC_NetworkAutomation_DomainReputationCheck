@@ -1,0 +1,167 @@
+input {
+  beats {
+    port => 5044
+    }
+}
+filter
+{
+if "Forcepoint" in [message]{
+      mutate { 
+           remove_field =>  [ "agent", "host" ] 
+         }
+   mutate {
+     split => {"message" => ","}
+       } 
+   mutate {
+    add_field => { "Src" => "%{[message][15]}" }
+    add_field => { "Dst" => "%{[message][18]}" }
+    add_field => { "URL" => "%{[message][32]}" }
+    add_field => { "Res" => "%{[message][7]}" }
+    add_field => { "device" => "Proxy" }
+   add_field => { "sent" => "%{[message][20]}" }
+    add_field => { "rcvd" => "%{[message][21]}" }
+
+       }
+   mutate { 
+                     gsub => [ "Src", "src_host=", "", "Dst", "dst_host=", "", "URL", "url=", "", "Res","action=","", "sent", "bytes_out=", "", "rcvd" , "bytes_in=", "" ]
+          }
+     geoip {
+		source => "Dst"
+          }
+                       }
+
+if "openproxy" in [message]{
+      mutate { 
+           remove_field =>  [ "agent", "host" ] 
+         }
+   mutate {
+     split => {"message" => " "}
+       } 
+   mutate {
+    add_field => { "Src" => "%{[message][9]}" }
+    add_field => { "Dst" => "%{[message][10]}" }
+    add_field => { "URL" => "%{[message][11]}" }
+    add_field => { "Res" => "%{[message][14]}" }
+    add_field => { "device" => "Proxy" }
+   add_field => { "sent" => "%{[message][7]}" }
+    add_field => { "rcvd" => "%{[message][8]}" }
+
+       }
+   mutate { 
+                     gsub => [ "Src", "src=", "", "Dst", "dst=","", "URL", "dstname=","", "Res","result=","", "sent", "sent=", "", "rcvd" , "rcvd=", "" ]
+          }
+     geoip {
+		source => "Dst"
+          }
+                       }
+
+if "NETSCOUT" in [message] {
+
+      mutate {
+           remove_field =>  [ "agent", "host" ]
+         }
+    mutate {
+     split => {"message" => " "}
+       }
+    mutate {
+    add_field => { "Src" => "%{[message][9]}" }
+    add_field => { "Dst" => "%{[message][13]}" }
+    add_field => { "PG" => "%{[message][21]}" }
+    add_field => { "proto" => "%{[message][12]}" }
+    add_field => { "Res" => "%{[message][7]}" }
+    add_field => { "device" => "DDOS" }
+       }
+    mutate {
+            gsub => [ "Src", "src=", "", "Dst", "dst=","", "PG", "cs2=","","proto", "proto=","" ]
+                   }
+#   geoip {
+ #               source => "Dst"
+  #      }
+
+}
+if  "iRule" in [message] {
+
+      mutate {
+           remove_field =>  [ "agent", "host" ]
+         }
+   kv {
+        source => "message"
+      }
+   mutate {
+         split => {"message" => "^^"}
+          }
+    mutate {
+    add_field => { "Src" => "%{c-ip}" }
+    add_field => { "Dst" => "%{[message][4]}" }
+    add_field => { "URL" => "%{[message][3]}" }
+    add_field => { "URI" => "%{[message][2]}" }
+    add_field => { "Status" => "%{[message][7]}" }
+     add_field => { "device" => "SLB" }
+       }
+    mutate {
+            gsub => ["Dst", "s-ip=","", "Username", "host=","","URL","host=","","Status","status=","","Src","\:.*","","URI","uri=",""]
+                   }
+   grok {
+         match => { "URI" => "/%{NUMBER:Username}\.nsf" }
+        }
+
+ #  geoip {
+  #              source => "Dst"
+   #     }
+   }
+
+  if  "DELSMBDCSLB" in [message] {
+
+      mutate {
+           remove_field =>  [ "agent", "host" ]
+         }
+    mutate {
+     split => {"message" => " "}
+       }
+    mutate {
+     add_field => { "device" => "SLB" }
+       }
+    mutate {
+            #gsub => [ "Src", "src=", "", "Dst", "dst=","", "PG", "cs2=","","proto", #"proto=","" ]
+                   }
+   #geoip {
+    #            source => "Dst"
+     #   }
+
+    }
+ if  "10.205.36.136" in [log][source][address] {
+ mutate {
+        remove_field =>  [ "agent", "host" ]
+        }
+    mutate {
+     add_field => { "device" => "FGT" }
+       }
+    kv {
+          source => "message"
+            #gsub => [ "Src", "src=", "", "Dst", "dst=","", "PG", "cs2=","","proto", #"proto=","" ]
+                   }
+   #geoip {
+    #            source => "Dst"
+     #   }
+
+  }
+  if  "10.205.36.245" in [log][source][address] {
+
+      mutate {
+           remove_field =>  [ "agent", "host" ]
+         }
+    mutate {
+     split => {"message" => " "}
+       }
+    mutate {
+     add_field => { "device" => "SLBNEW" }
+       }
+    mutate {
+            #gsub => [ "Src", "src=", "", "Dst", "dst=","", "PG", "cs2=","","proto", #"proto=","" ]
+                   }
+   #geoip {
+    #            source => "Dst"
+     #   }
+
+    }
+}

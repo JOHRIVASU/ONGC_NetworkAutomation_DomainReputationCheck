@@ -1,0 +1,1076 @@
+login as: dc_monitor
+Pre-authentication banner message from server:
+| +--------------------------------------------------------------------+
+| |                              WARNING                               |
+| |                              -------                               |
+| | This system is solely for the use of authorized users for official |
+| | purposes.  You have no expectation of privacy in its use and to    |
+| | ensure that the system is functioning properly, individuals using  |
+| | this computer system are subject to having all of their activities |
+| | monitored and recorded by ONGC. Use of this system                 |
+| | evidences an express consent to such monitoring and agreement that |
+| | if such monitoring reveals evidence of possible abuse or criminal  |
+| | activity, system personnel may provide the results of such         |
+| | monitoring to appropriate officials.                               |
+| +--------------------------------------------------------------------+
+|
+|
+End of banner message from server
+Keyboard-interactive authentication prompts from server:
+| Password:
+End of keyboard-interactive prompts from server
+--- JUNOS 19.3R3.6 Kernel 64-bit  JNPR-11.0-20200710.a76c78d_buil
+{master}
+dc_monitor@DLI-SM3> show ospf neighbor
+Address          Interface              State     ID               Pri  Dead
+10.205.35.2      ae3.0                  2Way      10.220.35.2      128    31
+10.205.35.96     ae3.0                  2Way      10.220.35.96     128    34
+10.205.35.10     ae3.0                  Full      10.220.35.10     128    30
+10.205.35.9      ae3.0                  Full      10.220.35.9      128    37
+10.205.49.26     ge-0/0/2.0             Full      10.220.181.12    128    38
+10.205.49.14     ge-0/0/3.0             Full      10.209.55.86       1    35
+10.205.49.82     ge-0/0/6.0             Full      10.220.204.2     128    35
+10.205.255.6     ge-0/1/0.0             Full      10.240.3.5       128    34
+10.205.49.190    ge-0/1/4.0             Exchange  10.220.127.50    128    38
+10.205.49.222    ge-0/1/5.0             Full      10.220.55.20     128    30
+10.205.49.22     ge-0/1/6.0             Full      10.240.3.5       128    38
+10.205.49.134    ge-0/1/7.0             Full      10.220.100.2     128    34
+10.205.49.246    ge-0/1/8.0             Full      10.220.186.9     128    33
+10.205.49.210    ge-0/2/6.0             Full      10.220.151.1     128    33
+10.205.49.214    ge-0/2/7.0             Full      10.220.180.12    128    37
+10.205.49.202    ge-0/2/9.0             Full      10.220.10.254    128    32
+10.205.49.34     ge-0/3/2.0             Full      10.220.206.1     128    35
+10.205.49.90     ge-0/3/3.0             Full      10.220.218.4       1    37
+10.205.49.2      ge-1/0/1.0             Full      10.220.158.50    128    32
+10.205.49.238    ge-1/0/2.0             Exchange  10.220.82.1      128    33
+10.205.49.130    ge-1/1/2.0             Full      10.220.210.2     128    34
+10.205.49.182    ge-3/2/4.0             Full      10.220.55.20     128    37
+10.205.49.122    ge-3/2/5.0             Full      10.209.104.23    128    16
+10.205.49.254    ge-3/2/7.0             Full      10.220.35.2      128    34
+10.205.49.178    ge-3/3/0.0             Full      10.220.206.1     128    35
+10.205.49.170    ge-3/3/4.0             Full      10.220.64.1      128    34
+10.205.49.162    ge-3/3/6.0             Full      10.209.55.86       1    38
+10.205.49.242    ge-3/3/8.0             Full      10.220.49.242      1    38
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3> show interfaces descriptions
+Interface       Admin Link Description
+ge-0/0/2.0      up    up   LL-34_Mbps-DLI_SM3-NZR_DC-RLTL
+ge-0/0/3.0      up    up   LL-155_Mbps-DLI_SM3-DLI_DUB-RLTL
+ge-0/0/6.0      up    up   LL-16_Mbps-DLI_SM3-KOL_TECH-BSNL
+ge-0/0/7.0      down  down REDUNDANT_LL-8_Mbps_DLI_SM3-KKL_NVY4
+ge-0/1/0.0      up    up   LL-90_Mbps-DLI_SM3-DDN_NEGI_BLDG-PGCIL
+ge-0/1/4.0      up    up   LL-16_Mbps-DLI_SM3-MUM_URAN-PGCIL
+ge-0/1/5.0      up    up   LL-68_Mbps-DLI_SM3-VDA_INFB-RLTL
+ge-0/1/6.0      up    up   LL-90_Mbps-DLI_SM3-DDN_SES-RLTL
+ge-0/1/7.0      up    up   LL-34_Mbps-DLI_SM3-RJY_GODA-BSNL
+ge-0/1/8.0      up    up   LL-16_Mbps-DLI_SM3-JRT_DHAN-PGCIL
+ge-0/2/1.0      down  down REDUNDANT_LL-4_Mbps_DLI_SM3-JDH
+ge-0/2/3.0      up    up   LL-34_Mbps-DLI_SM3-MUM_NBP-MTNL
+ge-0/2/5.0      down  down REDUNDANT_LL-34_Mbps_DLI_Railtel_11H_MUM
+ge-0/2/6.0      up    up   LL-34_Mbps-DLI_SM3-MUM_11H-PGCIL
+ge-0/2/7.0      up    up   LL-34_Mbps-DLI_SM3-MUM_VB-PGCIL
+ge-0/2/9.0      up    up   LL-90_Mbps-DLI_SM3-DDN-PGCIL
+ge-0/3/0.0      down  down REDUNDANT_LL-16_Mbps-DLI_SM2-MHN_KDM-BSNL
+ge-0/3/2.0      up    up   LL-32_Mbps-DLI_SM3-BKRO-BSNL
+ge-0/3/3.0      up    up   LL-34_Mbps-DLI_SM3-KKD-PGCIL
+ge-0/3/7        up    down JUNIPER SD_WAN 4-WAN2
+ge-0/3/8.0      down  down REDUNDANT_LL-34_Mbps_DLI_SM2-NZR_INF
+ge-1/0/1.0      up    up   LL-16_Mbps-DLI_SM3-HZR_SATB-PGCIL
+ge-1/0/2.0      up    up   LL-68_Mbps-DLI_SM3-MHN-PGCIL
+ge-1/1/0.0      up    down LL-16_Mbps-DLI_SM2-KKL_INF-BSNL
+ge-1/1/2.0      up    up   LL-16_Mbps-DLI_SM3-AGT-RLTL
+gr-2/0/10.0     down  up   Tunnel-34_Mbps_SM3_DLI-MUM_NBP_GH_MPLS
+gr-2/0/10.2     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-AGT-RLTL
+gr-2/0/10.3     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-KKD-RLTL
+gr-2/0/10.4     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-SIL_RLTL
+gr-2/0/10.5     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-RJY-RLTL
+gr-2/0/10.6     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-BKRO-RLTL
+gr-2/0/10.7     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-DDN-MSB-RLTL
+gr-2/0/10.8     down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-DUB-RLTL
+gr-2/0/10.9     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-MHN-RLTL
+gr-2/0/10.10    down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-CHN-RLTL
+gr-2/0/10.11    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-VDA-RLTL
+gr-2/0/10.12    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-CBY-RLTL
+gr-2/0/10.13    down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-ANK-RLTL
+gr-2/0/10.14    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-NZR-RLTL
+gr-2/0/10.15    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-JDP-RLTL
+gr-2/0/10.16    down  up   REDUNDANT_TU_MPLs-8_Mbps-DLI_SM2-AMD-RLTL
+gr-2/0/10.17    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-RJY-RLTL
+gr-2/0/10.18    down  up   REDUNDANT_TU_MPLs-4_Mbps-DLI_SM2-GOA-RLTL
+gr-2/0/10.19    down  up   REDUNDANT_TU_MPLS-8_Mbp-DLI_SM2-DAHEJ-RLTL
+gr-2/0/10.20    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-JRT-RLTL
+gr-2/0/10.21    down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-NBP-RLTL
+gr-2/0/10.22    down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-MUM_11H-RLTL
+gr-2/0/10.23    down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-VB-RLTL
+gr-2/0/10.24    down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-KKL-RLTL
+gr-2/0/10.25    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-KOL-RLTL
+gr-2/0/10.26    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-HZR-RLTL
+ge-3/2/1.0      up    up   LL-8_Mbps-DLI_SM3-SIL_INF-BSNL
+ge-3/2/4.0      up    up   LL-68_Mbps-DLI_SM3-VDA_INFB-BSNL
+ge-3/2/5.0      up    up   LL-34_Mbps-DLI_SM3-CHN_CDMA-RLTL
+ge-3/2/7.0      up    up   Connected to SM2
+ge-3/2/9        up    up   CONNECTED_TO_SDWAN_EDGE_1
+ge-3/3/0.0      up    up   LL-16_Mbps-DLI_SM3-BKRO_HSCL-RLTL
+ge-3/3/2        up    up   CONNECTED_TO_SDWAN_EDGE_2
+ge-3/3/4.0      up    up   LL-16_Mbps-DLI_SM3-ANK-RLTL
+ge-3/3/6.0      up    up   LL-155_Mbps-DLI_SM3-DLI_DUB-MTNL
+ge-3/3/8.0      up    up   ###-IBM NOIDA LL-50_Mbps-DLI_SM3-IBM_DLI_TATA-###
+ae3.0           up    up   LAN-DLI-SM3
+lo0             up    up   Loopback_Interface_SM3
+
+{master}
+dc_monitor@DLI-SM3> show route summary
+Router ID: 10.220.35.3
+
+inet.0: 4502 destinations, 4534 routes (4501 active, 1 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+                OSPF:   4396 routes,   4363 active
+              Static:     49 routes,     49 active
+                IGMP:      1 routes,      1 active
+                 PIM:      2 routes,      2 active
+
+inet.1: 62 destinations, 62 routes (62 active, 0 holddown, 0 hidden)
+                 PIM:     59 routes,     59 active
+           Multicast:      3 routes,      3 active
+
+DDN-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+DUB-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT-2.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+MOUNT_POINT-3.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+NOC_TRAFFIC.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+SAMETIME_RJY_VDA.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      2 routes,      1 active
+
+VC-DDN.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      2 routes,      1 active
+
+SDWAN_INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+inet6.0: 2 destinations, 3 routes (2 active, 0 holddown, 0 hidden)
+                 PIM:      2 routes,      1 active
+               INET6:      1 routes,      1 active
+
+inet6.1: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+           Multicast:      1 routes,      1 active
+
+DDN-INT.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+DUB-INT.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+MOUNT_POINT.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+MOUNT_POINT-2.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+MOUNT_POINT-3.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+NOC_TRAFFIC.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+VC-DDN.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+SDWAN_INT.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3> history
+                    ^
+unknown command.
+
+{master}
+dc_monitor@DLI-SM3> sudo
+                    ^
+unknown command.
+dc_monitor@DLI-SM3> sudo
+                    ^
+unknown command.
+dc_monitor@DLI-SM3> history
+                    ^
+unknown command.
+
+{master}
+dc_monitor@DLI-SM3> show route summary
+Router ID: 10.220.35.3
+
+inet.0: 4494 destinations, 4526 routes (4494 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+                OSPF:   4388 routes,   4356 active
+              Static:     49 routes,     49 active
+                IGMP:      1 routes,      1 active
+                 PIM:      2 routes,      2 active
+
+inet.1: 61 destinations, 61 routes (61 active, 0 holddown, 0 hidden)
+                 PIM:     58 routes,     58 active
+           Multicast:      3 routes,      3 active
+
+DDN-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+DUB-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT-2.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+MOUNT_POINT-3.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+NOC_TRAFFIC.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+SAMETIME_RJY_VDA.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      2 routes,      1 active
+
+VC-DDN.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+---(backing up)---
+Router ID: 10.220.35.3
+
+inet.0: 4494 destinations, 4526 routes (4494 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+                OSPF:   4388 routes,   4356 active
+              Static:     49 routes,     49 active
+                IGMP:      1 routes,      1 active
+                 PIM:      2 routes,      2 active
+
+inet.1: 61 destinations, 61 routes (61 active, 0 holddown, 0 hidden)
+                 PIM:     58 routes,     58 active
+           Multicast:      3 routes,      3 active
+
+DDN-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+DUB-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT-2.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+MOUNT_POINT-3.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+NOC_TRAFFIC.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+SAMETIME_RJY_VDA.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      2 routes,      1 active
+
+VC-DDN.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+---(backing up)---
+Router ID: 10.220.35.3
+
+inet.0: 4494 destinations, 4526 routes (4494 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+                OSPF:   4388 routes,   4356 active
+              Static:     49 routes,     49 active
+                IGMP:      1 routes,      1 active
+                 PIM:      2 routes,      2 active
+
+inet.1: 61 destinations, 61 routes (61 active, 0 holddown, 0 hidden)
+                 PIM:     58 routes,     58 active
+           Multicast:      3 routes,      3 active
+
+DDN-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+DUB-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT-2.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+MOUNT_POINT-3.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+NOC_TRAFFIC.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+SAMETIME_RJY_VDA.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      2 routes,      1 active
+
+VC-DDN.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+---(backing up)---
+Router ID: 10.220.35.3
+
+inet.0: 4494 destinations, 4526 routes (4494 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+                OSPF:   4388 routes,   4356 active
+              Static:     49 routes,     49 active
+                IGMP:      1 routes,      1 active
+                 PIM:      2 routes,      2 active
+
+inet.1: 61 destinations, 61 routes (61 active, 0 holddown, 0 hidden)
+                 PIM:     58 routes,     58 active
+           Multicast:      3 routes,      3 active
+
+DDN-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+DUB-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT-2.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+MOUNT_POINT-3.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+NOC_TRAFFIC.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+SAMETIME_RJY_VDA.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      2 routes,      1 active
+
+VC-DDN.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+---(backing up)---
+Router ID: 10.220.35.3
+
+inet.0: 4494 destinations, 4526 routes (4494 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+                OSPF:   4388 routes,   4356 active
+              Static:     49 routes,     49 active
+                IGMP:      1 routes,      1 active
+                 PIM:      2 routes,      2 active
+
+inet.1: 61 destinations, 61 routes (61 active, 0 holddown, 0 hidden)
+                 PIM:     58 routes,     58 active
+           Multicast:      3 routes,      3 active
+
+DDN-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+DUB-INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+MOUNT_POINT-2.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+MOUNT_POINT-3.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+NOC_TRAFFIC.inet.0: 86 destinations, 86 routes (86 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+
+SAMETIME_RJY_VDA.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      2 routes,      1 active
+
+VC-DDN.inet.0: 87 destinations, 88 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      2 routes,      1 active
+
+SDWAN_INT.inet.0: 87 destinations, 87 routes (87 active, 0 holddown, 0 hidden)
+              Direct:     30 routes,     30 active
+               Local:     56 routes,     56 active
+              Static:      1 routes,      1 active
+
+inet6.0: 2 destinations, 3 routes (2 active, 0 holddown, 0 hidden)
+                 PIM:      2 routes,      1 active
+               INET6:      1 routes,      1 active
+
+inet6.1: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+           Multicast:      1 routes,      1 active
+
+DDN-INT.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+DUB-INT.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+MOUNT_POINT.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+MOUNT_POINT-2.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+MOUNT_POINT-3.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+NOC_TRAFFIC.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+VC-DDN.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+SDWAN_INT.inet6.0: 1 destinations, 1 routes (1 active, 0 holddown, 0 hidden)
+               INET6:      1 routes,      1 active
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3> show interfaces descriptions
+Interface       Admin Link Description
+ge-0/0/2.0      up    up   LL-34_Mbps-DLI_SM3-NZR_DC-RLTL
+ge-0/0/3.0      up    up   LL-155_Mbps-DLI_SM3-DLI_DUB-RLTL
+ge-0/0/6.0      up    up   LL-16_Mbps-DLI_SM3-KOL_TECH-BSNL
+ge-0/0/7.0      down  down REDUNDANT_LL-8_Mbps_DLI_SM3-KKL_NVY4
+ge-0/1/0.0      up    up   LL-90_Mbps-DLI_SM3-DDN_NEGI_BLDG-PGCIL
+ge-0/1/4.0      up    up   LL-16_Mbps-DLI_SM3-MUM_URAN-PGCIL
+ge-0/1/5.0      up    up   LL-68_Mbps-DLI_SM3-VDA_INFB-RLTL
+ge-0/1/6.0      up    up   LL-90_Mbps-DLI_SM3-DDN_SES-RLTL
+ge-0/1/7.0      up    up   LL-34_Mbps-DLI_SM3-RJY_GODA-BSNL
+ge-0/1/8.0      up    up   LL-16_Mbps-DLI_SM3-JRT_DHAN-PGCIL
+ge-0/2/1.0      down  down REDUNDANT_LL-4_Mbps_DLI_SM3-JDH
+ge-0/2/3.0      up    up   LL-34_Mbps-DLI_SM3-MUM_NBP-MTNL
+ge-0/2/5.0      down  down REDUNDANT_LL-34_Mbps_DLI_Railtel_11H_MUM
+ge-0/2/6.0      up    up   LL-34_Mbps-DLI_SM3-MUM_11H-PGCIL
+ge-0/2/7.0      up    up   LL-34_Mbps-DLI_SM3-MUM_VB-PGCIL
+ge-0/2/9.0      up    up   LL-90_Mbps-DLI_SM3-DDN-PGCIL
+ge-0/3/0.0      down  down REDUNDANT_LL-16_Mbps-DLI_SM2-MHN_KDM-BSNL
+ge-0/3/2.0      up    up   LL-32_Mbps-DLI_SM3-BKRO-BSNL
+ge-0/3/3.0      up    up   LL-34_Mbps-DLI_SM3-KKD-PGCIL
+ge-0/3/7        up    down JUNIPER SD_WAN 4-WAN2
+ge-0/3/8.0      down  down REDUNDANT_LL-34_Mbps_DLI_SM2-NZR_INF
+ge-1/0/1.0      up    up   LL-16_Mbps-DLI_SM3-HZR_SATB-PGCIL
+ge-1/0/2.0      up    up   LL-68_Mbps-DLI_SM3-MHN-PGCIL
+ge-1/1/0.0      up    down LL-16_Mbps-DLI_SM2-KKL_INF-BSNL
+ge-1/1/2.0      up    up   LL-16_Mbps-DLI_SM3-AGT-RLTL
+gr-2/0/10.0     down  up   Tunnel-34_Mbps_SM3_DLI-MUM_NBP_GH_MPLS
+gr-2/0/10.2     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-AGT-RLTL
+gr-2/0/10.3     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-KKD-RLTL
+gr-2/0/10.4     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-SIL_RLTL
+gr-2/0/10.5     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-RJY-RLTL
+gr-2/0/10.6     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-BKRO-RLTL
+gr-2/0/10.7     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-DDN-MSB-RLTL
+gr-2/0/10.8     down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-DUB-RLTL
+gr-2/0/10.9     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-MHN-RLTL
+gr-2/0/10.10    down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-CHN-RLTL
+gr-2/0/10.11    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-VDA-RLTL
+gr-2/0/10.12    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-CBY-RLTL
+gr-2/0/10.13    down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-ANK-RLTL
+gr-2/0/10.14    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-NZR-RLTL
+gr-2/0/10.15    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-JDP-RLTL
+gr-2/0/10.16    down  up   REDUNDANT_TU_MPLs-8_Mbps-DLI_SM2-AMD-RLTL
+gr-2/0/10.17    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-RJY-RLTL
+gr-2/0/10.18    down  up   REDUNDANT_TU_MPLs-4_Mbps-DLI_SM2-GOA-RLTL
+gr-2/0/10.19    down  up   REDUNDANT_TU_MPLS-8_Mbp-DLI_SM2-DAHEJ-RLTL
+gr-2/0/10.20    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-JRT-RLTL
+gr-2/0/10.21    down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-NBP-RLTL
+gr-2/0/10.22    down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-MUM_11H-RLTL
+---(backing up)---
+Interface       Admin Link Description
+ge-0/0/2.0      up    up   LL-34_Mbps-DLI_SM3-NZR_DC-RLTL
+ge-0/0/3.0      up    up   LL-155_Mbps-DLI_SM3-DLI_DUB-RLTL
+ge-0/0/6.0      up    up   LL-16_Mbps-DLI_SM3-KOL_TECH-BSNL
+ge-0/0/7.0      down  down REDUNDANT_LL-8_Mbps_DLI_SM3-KKL_NVY4
+ge-0/1/0.0      up    up   LL-90_Mbps-DLI_SM3-DDN_NEGI_BLDG-PGCIL
+ge-0/1/4.0      up    up   LL-16_Mbps-DLI_SM3-MUM_URAN-PGCIL
+ge-0/1/5.0      up    up   LL-68_Mbps-DLI_SM3-VDA_INFB-RLTL
+ge-0/1/6.0      up    up   LL-90_Mbps-DLI_SM3-DDN_SES-RLTL
+ge-0/1/7.0      up    up   LL-34_Mbps-DLI_SM3-RJY_GODA-BSNL
+ge-0/1/8.0      up    up   LL-16_Mbps-DLI_SM3-JRT_DHAN-PGCIL
+ge-0/2/1.0      down  down REDUNDANT_LL-4_Mbps_DLI_SM3-JDH
+ge-0/2/3.0      up    up   LL-34_Mbps-DLI_SM3-MUM_NBP-MTNL
+ge-0/2/5.0      down  down REDUNDANT_LL-34_Mbps_DLI_Railtel_11H_MUM
+ge-0/2/6.0      up    up   LL-34_Mbps-DLI_SM3-MUM_11H-PGCIL
+ge-0/2/7.0      up    up   LL-34_Mbps-DLI_SM3-MUM_VB-PGCIL
+ge-0/2/9.0      up    up   LL-90_Mbps-DLI_SM3-DDN-PGCIL
+ge-0/3/0.0      down  down REDUNDANT_LL-16_Mbps-DLI_SM2-MHN_KDM-BSNL
+ge-0/3/2.0      up    up   LL-32_Mbps-DLI_SM3-BKRO-BSNL
+ge-0/3/3.0      up    up   LL-34_Mbps-DLI_SM3-KKD-PGCIL
+ge-0/3/7        up    down JUNIPER SD_WAN 4-WAN2
+ge-0/3/8.0      down  down REDUNDANT_LL-34_Mbps_DLI_SM2-NZR_INF
+ge-1/0/1.0      up    up   LL-16_Mbps-DLI_SM3-HZR_SATB-PGCIL
+ge-1/0/2.0      up    up   LL-68_Mbps-DLI_SM3-MHN-PGCIL
+ge-1/1/0.0      up    down LL-16_Mbps-DLI_SM2-KKL_INF-BSNL
+ge-1/1/2.0      up    up   LL-16_Mbps-DLI_SM3-AGT-RLTL
+gr-2/0/10.0     down  up   Tunnel-34_Mbps_SM3_DLI-MUM_NBP_GH_MPLS
+gr-2/0/10.2     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-AGT-RLTL
+gr-2/0/10.3     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-KKD-RLTL
+gr-2/0/10.4     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-SIL_RLTL
+gr-2/0/10.5     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-RJY-RLTL
+gr-2/0/10.6     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-BKRO-RLTL
+gr-2/0/10.7     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-DDN-MSB-RLTL
+gr-2/0/10.8     down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-DUB-RLTL
+gr-2/0/10.9     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-MHN-RLTL
+gr-2/0/10.10    down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-CHN-RLTL
+gr-2/0/10.11    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-VDA-RLTL
+gr-2/0/10.12    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-CBY-RLTL
+gr-2/0/10.13    down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-ANK-RLTL
+gr-2/0/10.14    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-NZR-RLTL
+gr-2/0/10.15    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-JDP-RLTL
+gr-2/0/10.16    down  up   REDUNDANT_TU_MPLs-8_Mbps-DLI_SM2-AMD-RLTL
+gr-2/0/10.17    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-RJY-RLTL
+gr-2/0/10.18    down  up   REDUNDANT_TU_MPLs-4_Mbps-DLI_SM2-GOA-RLTL
+gr-2/0/10.19    down  up   REDUNDANT_TU_MPLS-8_Mbp-DLI_SM2-DAHEJ-RLTL
+gr-2/0/10.20    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-JRT-RLTL
+gr-2/0/10.21    down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-NBP-RLTL
+gr-2/0/10.22    down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-MUM_11H-RLTL
+gr-2/0/10.23    down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-VB-RLTL
+gr-2/0/10.24    down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-KKL-RLTL
+gr-2/0/10.25    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-KOL-RLTL
+gr-2/0/10.26    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-HZR-RLTL
+ge-3/2/1.0      up    up   LL-8_Mbps-DLI_SM3-SIL_INF-BSNL
+ge-3/2/4.0      up    up   LL-68_Mbps-DLI_SM3-VDA_INFB-BSNL
+ge-3/2/5.0      up    up   LL-34_Mbps-DLI_SM3-CHN_CDMA-RLTL
+ge-3/2/7.0      up    up   Connected to SM2
+ge-3/2/9        up    up   CONNECTED_TO_SDWAN_EDGE_1
+ge-3/3/0.0      up    up   LL-16_Mbps-DLI_SM3-BKRO_HSCL-RLTL
+ge-3/3/2        up    up   CONNECTED_TO_SDWAN_EDGE_2
+ge-3/3/4.0      up    up   LL-16_Mbps-DLI_SM3-ANK-RLTL
+ge-3/3/6.0      up    up   LL-155_Mbps-DLI_SM3-DLI_DUB-MTNL
+ge-3/3/8.0      up    up   ###-IBM NOIDA LL-50_Mbps-DLI_SM3-IBM_DLI_TATA-###
+ae3.0           up    up   LAN-DLI-SM3
+lo0             up    up   Loopback_Interface_SM3
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3> show interfaces descriptions
+Interface       Admin Link Description
+ge-0/0/2.0      up    up   LL-34_Mbps-DLI_SM3-NZR_DC-RLTL
+ge-0/0/3.0      up    up   LL-155_Mbps-DLI_SM3-DLI_DUB-RLTL
+ge-0/0/6.0      up    up   LL-16_Mbps-DLI_SM3-KOL_TECH-BSNL
+ge-0/0/7.0      down  down REDUNDANT_LL-8_Mbps_DLI_SM3-KKL_NVY4
+ge-0/1/0.0      up    up   LL-90_Mbps-DLI_SM3-DDN_NEGI_BLDG-PGCIL
+ge-0/1/4.0      up    up   LL-16_Mbps-DLI_SM3-MUM_URAN-PGCIL
+ge-0/1/5.0      up    up   LL-68_Mbps-DLI_SM3-VDA_INFB-RLTL
+ge-0/1/6.0      up    up   LL-90_Mbps-DLI_SM3-DDN_SES-RLTL
+ge-0/1/7.0      up    up   LL-34_Mbps-DLI_SM3-RJY_GODA-BSNL
+ge-0/1/8.0      up    up   LL-16_Mbps-DLI_SM3-JRT_DHAN-PGCIL
+ge-0/2/1.0      down  down REDUNDANT_LL-4_Mbps_DLI_SM3-JDH
+ge-0/2/3.0      up    up   LL-34_Mbps-DLI_SM3-MUM_NBP-MTNL
+ge-0/2/5.0      down  down REDUNDANT_LL-34_Mbps_DLI_Railtel_11H_MUM
+ge-0/2/6.0      up    up   LL-34_Mbps-DLI_SM3-MUM_11H-PGCIL
+ge-0/2/7.0      up    up   LL-34_Mbps-DLI_SM3-MUM_VB-PGCIL
+ge-0/2/9.0      up    up   LL-90_Mbps-DLI_SM3-DDN-PGCIL
+ge-0/3/0.0      down  down REDUNDANT_LL-16_Mbps-DLI_SM2-MHN_KDM-BSNL
+ge-0/3/2.0      up    up   LL-32_Mbps-DLI_SM3-BKRO-BSNL
+ge-0/3/3.0      up    up   LL-34_Mbps-DLI_SM3-KKD-PGCIL
+ge-0/3/7        up    down JUNIPER SD_WAN 4-WAN2
+ge-0/3/8.0      down  down REDUNDANT_LL-34_Mbps_DLI_SM2-NZR_INF
+ge-1/0/1.0      up    up   LL-16_Mbps-DLI_SM3-HZR_SATB-PGCIL
+ge-1/0/2.0      up    up   LL-68_Mbps-DLI_SM3-MHN-PGCIL
+ge-1/1/0.0      up    down LL-16_Mbps-DLI_SM2-KKL_INF-BSNL
+ge-1/1/2.0      up    up   LL-16_Mbps-DLI_SM3-AGT-RLTL
+gr-2/0/10.0     down  up   Tunnel-34_Mbps_SM3_DLI-MUM_NBP_GH_MPLS
+gr-2/0/10.2     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-AGT-RLTL
+gr-2/0/10.3     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-KKD-RLTL
+gr-2/0/10.4     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-SIL_RLTL
+gr-2/0/10.5     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-RJY-RLTL
+gr-2/0/10.6     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-BKRO-RLTL
+gr-2/0/10.7     down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-DDN-MSB-RLTL
+gr-2/0/10.8     down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-DUB-RLTL
+gr-2/0/10.9     down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-MHN-RLTL
+gr-2/0/10.10    down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-CHN-RLTL
+gr-2/0/10.11    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-VDA-RLTL
+gr-2/0/10.12    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-CBY-RLTL
+gr-2/0/10.13    down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-ANK-RLTL
+gr-2/0/10.14    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-NZR-RLTL
+gr-2/0/10.15    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-JDP-RLTL
+gr-2/0/10.16    down  up   REDUNDANT_TU_MPLs-8_Mbps-DLI_SM2-AMD-RLTL
+gr-2/0/10.17    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-RJY-RLTL
+gr-2/0/10.18    down  up   REDUNDANT_TU_MPLs-4_Mbps-DLI_SM2-GOA-RLTL
+gr-2/0/10.19    down  up   REDUNDANT_TU_MPLS-8_Mbp-DLI_SM2-DAHEJ-RLTL
+gr-2/0/10.20    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-JRT-RLTL
+gr-2/0/10.21    down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-NBP-RLTL
+gr-2/0/10.22    down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-MUM_11H-RLTL
+gr-2/0/10.23    down  up   REDUNDANT_TU_MPLS-34_Mbps-DLI_SM2-VB-RLTL
+gr-2/0/10.24    down  up   REDUNDANT_TU_MPLS-8_Mbps-DLI_SM2-KKL-RLTL
+gr-2/0/10.25    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-KOL-RLTL
+gr-2/0/10.26    down  up   REDUNDANT_TU_MPLS-4_Mbps-DLI_SM2-HZR-RLTL
+ge-3/2/1.0      up    up   LL-8_Mbps-DLI_SM3-SIL_INF-BSNL
+ge-3/2/4.0      up    up   LL-68_Mbps-DLI_SM3-VDA_INFB-BSNL
+ge-3/2/5.0      up    up   LL-34_Mbps-DLI_SM3-CHN_CDMA-RLTL
+ge-3/2/7.0      up    up   Connected to SM2
+ge-3/2/9        up    up   CONNECTED_TO_SDWAN_EDGE_1
+ge-3/3/0.0      up    up   LL-16_Mbps-DLI_SM3-BKRO_HSCL-RLTL
+ge-3/3/2        up    up   CONNECTED_TO_SDWAN_EDGE_2
+ge-3/3/4.0      up    up   LL-16_Mbps-DLI_SM3-ANK-RLTL
+ge-3/3/6.0      up    up   LL-155_Mbps-DLI_SM3-DLI_DUB-MTNL
+ge-3/3/8.0      up    up   ###-IBM NOIDA LL-50_Mbps-DLI_SM3-IBM_DLI_TATA-###
+ae3.0           up    up   LAN-DLI-SM3
+lo0             up    up   Loopback_Interface_SM3
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3> show system information
+Model: mx480
+Family: junos
+Junos: 19.3R3.6
+Hostname: DLI-SM3
+
+{master}
+dc_monitor@DLI-SM3> show chasis
+                         ^
+syntax error, expecting <command>.
+dc_monitor@DLI-SM3> show chassis hardware
+Hardware inventory:
+Item             Version  Part number  Serial number     Description
+Chassis                                JN126498EAFB      MX480
+Midplane         REV 40   750-047862   ACRJ5210          Enhanced MX480 Midplane
+FPM Board        REV 04   760-059208   CAHK9882          Front Panel Display
+PEM 0            Rev 01   740-063046   QCS1702U1KJ       PS 1.4-2.52kW; 90-264V AC in
+PEM 1            Rev 01   740-063046   QCS1702U2E3       PS 1.4-2.52kW; 90-264V AC in
+PEM 2            Rev 01   740-063046   QCS1702U0U1       PS 1.4-2.52kW; 90-264V AC in
+PEM 3            Rev 01   740-063046   QCS2049U03P       PS 1.4-2.52kW; 90-264V AC in
+Routing Engine 0 REV 04   740-051822   9016065491        RE-S-1800x4
+Routing Engine 1 REV 08   740-051822   9016331389        RE-S-1800x4
+CB 0             REV 05   750-062577   CAHM4867          Enhanced MX SCB
+CB 1             REV 05   750-062577   CAHZ5306          Enhanced MX SCB
+FPC 0            REV 08   750-063184   CAHK0827          MPC2E NG PQ & Flex Q
+  CPU            REV 13   711-045719   CAHR5841          RMPC PMB
+  MIC 0          REV 22   750-028390   CAHR1076          3D 40x 1GE(LAN) RJ45
+    PIC 0                 BUILTIN      BUILTIN           10x 1GE(LAN) RJ45
+    PIC 1                 BUILTIN      BUILTIN           10x 1GE(LAN) RJ45
+    PIC 2                 BUILTIN      BUILTIN           10x 1GE(LAN) RJ45
+    PIC 3                 BUILTIN      BUILTIN           10x 1GE(LAN) RJ45
+FPC 1            REV 30   750-063184   EBAE7324          MPC2E NG PQ & Flex Q
+  CPU            REV 13   711-045719   EBAG3793          RMPC PMB
+  MIC 0          REV 17   750-049846   CAJA5183          3D 20x 1GE(LAN)-E,SFP
+    PIC 0                 BUILTIN      BUILTIN           10x 1GE(LAN) -E  SFP
+      Xcvr 1     REV 02   740-013111   H021701           SFP-T
+      Xcvr 2     REV 01   740-021309   L17A04444         SFP+-10G-LR
+    PIC 1                 BUILTIN      BUILTIN           10x 1GE(LAN) -E  SFP
+      Xcvr 0     REV 02   740-013111   H020947           SFP-T
+      Xcvr 2     REV 01   740-013111   PX708XW           SFP-T
+  MIC 1          REV 31   750-028387   CAHZ6969          3D 4x 10GE  XFP
+    PIC 2                 BUILTIN      BUILTIN           2x 10GE  XFP
+      Xcvr 0     REV 01   740-033777   UX9102K           XFP-10G-SR
+      Xcvr 1     REV 01   740-033777   UX808M5           XFP-10G-SR
+    PIC 3                 BUILTIN      BUILTIN           2x 10GE  XFP
+      Xcvr 0     REV 01   740-033777   UX90VJT           XFP-10G-SR
+      Xcvr 1     REV 01   740-033777   UX819BV           XFP-10G-SR
+FPC 2            REV 12   750-063184   CAGT1227          MPC2E NG PQ & Flex Q
+  CPU            REV 13   711-045719   CAGY5978          RMPC PMB
+  MIC 0          REV 02   750-061622   CAJC0224          MS-MIC-16G
+    PIC 0                 BUILTIN      BUILTIN           MS-MIC-16G
+  MIC 1          REV 29   750-032476   CAGT6401          MIC-3D-4CHOC3-2CHOC12
+    PIC 2                 BUILTIN      BUILTIN           MIC-3D-4CHOC3-2CHOC12
+      Xcvr 0     REV 01   740-016541   PVP0UR7           SFP-SR
+      Xcvr 1     REV 01   740-016541   PVP0UR2           SFP-SR
+      Xcvr 2     REV 01   740-016541   PVP0UR6           SFP-SR
+      Xcvr 3     REV 01   740-016541   PVP0UNF           SFP-SR
+FPC 3            REV 08   750-063184   CAJB0131          MPC2E NG PQ & Flex Q
+  CPU            REV 13   711-045719   CAHY3400          RMPC PMB
+  MIC 0          REV 02   750-061622   CAJG5490          MS-MIC-16G
+    PIC 0                 BUILTIN      BUILTIN           MS-MIC-16G
+  MIC 1          REV 17   750-049846   CAHP2081          3D 20x 1GE(LAN)-E,SFP
+    PIC 2                 BUILTIN      BUILTIN           10x 1GE(LAN) -E  SFP
+      Xcvr 1     REV 01   740-013111   PX708SF           SFP-T
+      Xcvr 3     REV 01   740-013111   PX708PZ           SFP-T
+      Xcvr 4     REV 01   740-013111   PX706BJ           SFP-T
+      Xcvr 5     REV 01   740-013111   PX70956           SFP-T
+      Xcvr 7     REV 01   740-013111   PX7038A           SFP-T
+      Xcvr 8     REV 01   740-013111   PX708PV           SFP-T
+      Xcvr 9     REV 01   740-013111   PX708XU           SFP-T
+    PIC 3                 BUILTIN      BUILTIN           10x 1GE(LAN) -E  SFP
+      Xcvr 0     REV 01   740-013111   PX708R7           SFP-T
+      Xcvr 2     REV 01   740-013111   PX708YH           SFP-T
+      Xcvr 4              NON-JNPR     WX19011702802     SFP-LX10
+      Xcvr 6     REV 01   740-013111   PX708RR           SFP-T
+      Xcvr 8     REV 01   740-013111   PX708RM           SFP-T
+      Xcvr 9     REV 01   740-013111   PX709CU           SFP-T
+Fan Tray                                                 Enhanced Left Fan Tray
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3>
+
+{master}
+dc_monitor@DLI-SM3> show chassis environment
+Class Item                           Status     Measurement
+Temp  PEM 0                          OK         50 degrees C / 122 degrees F
+      PEM 1                          OK         55 degrees C / 131 degrees F
+      PEM 2                          OK         55 degrees C / 131 degrees F
+      PEM 3                          OK         55 degrees C / 131 degrees F
+      Routing Engine 0               OK         41 degrees C / 105 degrees F
+      Routing Engine 0 CPU           OK         40 degrees C / 104 degrees F
+      Routing Engine 1               OK         41 degrees C / 105 degrees F
+      Routing Engine 1 CPU           OK         39 degrees C / 102 degrees F
+      CB 0 Intake                    OK         40 degrees C / 104 degrees F
+      CB 0 Exhaust A                 OK         38 degrees C / 100 degrees F
+      CB 0 Exhaust B                 OK         48 degrees C / 118 degrees F
+      CB 0 ACBC                      OK         45 degrees C / 113 degrees F
+      CB 0 XF A                      OK         67 degrees C / 152 degrees F
+      CB 0 XF B                      OK         60 degrees C / 140 degrees F
+      CB 1 Intake                    OK         41 degrees C / 105 degrees F
+      CB 1 Exhaust A                 OK         39 degrees C / 102 degrees F
+      CB 1 Exhaust B                 OK         47 degrees C / 116 degrees F
+      CB 1 ACBC                      OK         46 degrees C / 114 degrees F
+      CB 1 XF A                      OK         65 degrees C / 149 degrees F
+      CB 1 XF B                      OK         60 degrees C / 140 degrees F
+      FPC 0 Intake                   OK         47 degrees C / 116 degrees F
+      FPC 0 Exhaust A                OK         48 degrees C / 118 degrees F
+      FPC 0 Exhaust B                OK         60 degrees C / 140 degrees F
+      FPC 0 XL TSen                  OK         61 degrees C / 141 degrees F
+      FPC 0 XL Chip                  OK         57 degrees C / 134 degrees F
+      FPC 0 XL_XR0 TSen              OK         61 degrees C / 141 degrees F
+      FPC 0 XL_XR0 Chip              OK         62 degrees C / 143 degrees F
+      FPC 0 XL_XR1 TSen              OK         61 degrees C / 141 degrees F
+      FPC 0 XL_XR1 Chip              OK         62 degrees C / 143 degrees F
+      FPC 0 XQ TSen                  OK         61 degrees C / 141 degrees F
+      FPC 0 XQ Chip                  OK         54 degrees C / 129 degrees F
+      FPC 0 XQ_XR0 TSen              OK         61 degrees C / 141 degrees F
+      FPC 0 XQ_XR0 Chip              OK         57 degrees C / 134 degrees F
+      FPC 0 XM TSen                  OK         61 degrees C / 141 degrees F
+      FPC 0 XM Chip                  OK         69 degrees C / 156 degrees F
+      FPC 0 XF TSen                  OK         61 degrees C / 141 degrees F
+      FPC 0 XF Chip                  OK         72 degrees C / 161 degrees F
+      FPC 0 PLX PCIe Switch TSen     OK         49 degrees C / 120 degrees F
+      FPC 0 PLX PCIe Switch Chip     OK         51 degrees C / 123 degrees F
+      FPC 0 Aloha FPGA 0 TSen        OK         49 degrees C / 120 degrees F
+      FPC 0 Aloha FPGA 0 Chip        OK         66 degrees C / 150 degrees F
+      FPC 0 Aloha FPGA 1 TSen        OK         49 degrees C / 120 degrees F
+      FPC 0 Aloha FPGA 1 Chip        OK         72 degrees C / 161 degrees F
+      FPC 1 Intake                   OK         46 degrees C / 114 degrees F
+      FPC 1 Exhaust A                OK         47 degrees C / 116 degrees F
+      FPC 1 Exhaust B                OK         64 degrees C / 147 degrees F
+      FPC 1 XL TSen                  OK         63 degrees C / 145 degrees F
+      FPC 1 XL Chip                  OK         57 degrees C / 134 degrees F
+      FPC 1 XL_XR0 TSen              OK         63 degrees C / 145 degrees F
+      FPC 1 XL_XR0 Chip              OK         61 degrees C / 141 degrees F
+      FPC 1 XL_XR1 TSen              OK         63 degrees C / 145 degrees F
+      FPC 1 XL_XR1 Chip              OK         64 degrees C / 147 degrees F
+      FPC 1 XQ TSen                  OK         63 degrees C / 145 degrees F
+      FPC 1 XQ Chip                  OK         56 degrees C / 132 degrees F
+      FPC 1 XQ_XR0 TSen              OK         63 degrees C / 145 degrees F
+      FPC 1 XQ_XR0 Chip              OK         58 degrees C / 136 degrees F
+      FPC 1 XM TSen                  OK         63 degrees C / 145 degrees F
+      FPC 1 XM Chip                  OK         71 degrees C / 159 degrees F
+      FPC 1 XF TSen                  OK         63 degrees C / 145 degrees F
+      FPC 1 XF Chip                  OK         75 degrees C / 167 degrees F
+      FPC 1 PLX PCIe Switch TSen     OK         50 degrees C / 122 degrees F
+      FPC 1 PLX PCIe Switch Chip     OK         54 degrees C / 129 degrees F
+      FPC 1 Aloha FPGA 0 TSen        OK         50 degrees C / 122 degrees F
+      FPC 1 Aloha FPGA 0 Chip        OK         67 degrees C / 152 degrees F
+      FPC 1 Aloha FPGA 1 TSen        OK         50 degrees C / 122 degrees F
+      FPC 1 Aloha FPGA 1 Chip        OK         74 degrees C / 165 degrees F
+      FPC 2 Intake                   OK         47 degrees C / 116 degrees F
+      FPC 2 Exhaust A                OK         58 degrees C / 136 degrees F
+      FPC 2 Exhaust B                OK         65 degrees C / 149 degrees F
+      FPC 2 XL TSen                  OK         63 degrees C / 145 degrees F
+      FPC 2 XL Chip                  OK         57 degrees C / 134 degrees F
+      FPC 2 XL_XR0 TSen              OK         63 degrees C / 145 degrees F
+      FPC 2 XL_XR0 Chip              OK         62 degrees C / 143 degrees F
+      FPC 2 XL_XR1 TSen              OK         63 degrees C / 145 degrees F
+      FPC 2 XL_XR1 Chip              OK         63 degrees C / 145 degrees F
+      FPC 2 XQ TSen                  OK         63 degrees C / 145 degrees F
+      FPC 2 XQ Chip                  OK         68 degrees C / 154 degrees F
+      FPC 2 XQ_XR0 TSen              OK         63 degrees C / 145 degrees F
+      FPC 2 XQ_XR0 Chip              OK         80 degrees C / 176 degrees F
+      FPC 2 XM TSen                  OK         63 degrees C / 145 degrees F
+      FPC 2 XM Chip                  OK         72 degrees C / 161 degrees F
+      FPC 2 XF TSen                  OK         63 degrees C / 145 degrees F
+      FPC 2 XF Chip                  OK         76 degrees C / 168 degrees F
+      FPC 2 PLX PCIe Switch TSen     OK         49 degrees C / 120 degrees F
+      FPC 2 PLX PCIe Switch Chip     OK         54 degrees C / 129 degrees F
+      FPC 2 Aloha FPGA 0 TSen        OK         49 degrees C / 120 degrees F
+      FPC 2 Aloha FPGA 0 Chip        OK         74 degrees C / 165 degrees F
+      FPC 2 Aloha FPGA 1 TSen        OK         49 degrees C / 120 degrees F
+      FPC 2 Aloha FPGA 1 Chip        OK         76 degrees C / 168 degrees F
+      FPC 3 Intake                   OK         48 degrees C / 118 degrees F
+      FPC 3 Exhaust A                OK         56 degrees C / 132 degrees F
+      FPC 3 Exhaust B                OK         66 degrees C / 150 degrees F
+      FPC 3 XL TSen                  OK         70 degrees C / 158 degrees F
+      FPC 3 XL Chip                  OK         66 degrees C / 150 degrees F
+      FPC 3 XL_XR0 TSen              OK         70 degrees C / 158 degrees F
+      FPC 3 XL_XR0 Chip              OK         69 degrees C / 156 degrees F
+      FPC 3 XL_XR1 TSen              OK         70 degrees C / 158 degrees F
+      FPC 3 XL_XR1 Chip              OK         71 degrees C / 159 degrees F
+      FPC 3 XQ TSen                  OK         70 degrees C / 158 degrees F
+      FPC 3 XQ Chip                  OK         59 degrees C / 138 degrees F
+      FPC 3 XQ_XR0 TSen              OK         70 degrees C / 158 degrees F
+      FPC 3 XQ_XR0 Chip              OK         62 degrees C / 143 degrees F
+      FPC 3 XM TSen                  OK         70 degrees C / 158 degrees F
+      FPC 3 XM Chip                  OK         79 degrees C / 174 degrees F
+      FPC 3 XF TSen                  OK         70 degrees C / 158 degrees F
+      FPC 3 XF Chip                  OK         79 degrees C / 174 degrees F
+      FPC 3 PLX PCIe Switch TSen     OK         54 degrees C / 129 degrees F
+      FPC 3 PLX PCIe Switch Chip     OK         56 degrees C / 132 degrees F
+      FPC 3 Aloha FPGA 0 TSen        OK         54 degrees C / 129 degrees F
+      FPC 3 Aloha FPGA 0 Chip        OK         70 degrees C / 158 degrees F
+      FPC 3 Aloha FPGA 1 TSen        OK         54 degrees C / 129 degrees F
+      FPC 3 Aloha FPGA 1 Chip        OK         78 degrees C / 172 degrees F
+Fans  Top Rear Fan                   OK         Spinning at intermediate-speed
+      Bottom Rear Fan                OK         Spinning at intermediate-speed
+      Top Middle Fan                 OK         Spinning at intermediate-speed
+      Bottom Middle Fan              OK         Spinning at intermediate-speed
+      Top Front Fan                  OK         Spinning at intermediate-speed
+      Bottom Front Fan               OK         Spinning at intermediate-speed
+
+{master}
+dc_monitor@DLI-SM3> show interfaces terse
+Interface               Admin Link Proto    Local                 Remote
+ge-0/0/0                up    up
+ge-0/0/0.0              up    up   aenet    --> ae3.0
+lc-0/0/0                up    up
+lc-0/0/0.32769          up    up   vpls
+pfe-0/0/0               up    up
+pfe-0/0/0.16383         up    up   inet
+                                   inet6
+pfh-0/0/0               up    up
+pfh-0/0/0.16383         up    up   inet
+pfh-0/0/0.16384         up    up   inet
+ge-0/0/1                up    down
+ge-0/0/1.16386          up    down
+ge-0/0/2                up    up
+ge-0/0/2.0              up    up   inet     10.205.49.25/30
+                                   multiservice
+ge-0/0/3                up    up
+ge-0/0/3.0              up    up   inet     10.205.49.13/30
+                                   multiservice
+ge-0/0/4                up    down
+ge-0/0/4.16386          up    down
+ge-0/0/5                up    down
+ge-0/0/5.16386          up    down
+ge-0/0/6                up    up
+ge-0/0/6.0              up    up   inet     10.205.49.81/30
+                                   multiservice
+ge-0/0/7                down  down
+ge-0/0/7.0              down  down inet
+                                   multiservice
+ge-0/0/8                up    down
+ge-0/0/8.16386          up    down
+ge-0/0/9                up    up
+ge-0/0/9.0              up    up   aenet    --> ae3.0
+ge-0/1/0                up    up
+ge-0/1/0.0              up    up   inet     10.205.255.5/30
+                                   multiservice
+ge-0/1/1                up    down
+ge-0/1/1.16386          up    down
+ge-0/1/2                up    down
+ge-0/1/2.16386          up    down
+ge-0/1/3                up    down
+ge-0/1/3.16386          up    down
+ge-0/1/4                up    up
+ge-0/1/4.0              up    up   inet     10.205.49.189/30
+                                   multiservice
+ge-0/1/5                up    up
+ge-0/1/5.0              up    up   inet     10.205.49.221/30
+                                   multiservice
+ge-0/1/6                up    up
+ge-0/1/6.0              up    up   inet     10.205.49.21/30
+                                   multiservice
+ge-0/1/7                up    up
+ge-0/1/7.0              up    up   inet     10.205.49.133/30
+---(more 15%)---[abort]
+
+{master}
+dc_monitor@DLI-SM3> monitor traffic interface
+                                              ^
+syntax error, expecting <data>.
+
+{master}
+dc_monitor@DLI-SM3>
